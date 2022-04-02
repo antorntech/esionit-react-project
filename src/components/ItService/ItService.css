@@ -1,0 +1,23 @@
+.service-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: left;
+}
+
+.service-details {
+  padding: 20px;
+}
+
+.service-details span {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.service-details a {
+  text-decoration: none;
+  color: #f05d53;
+  transition: 0.4s;
+}
+
+.service-details a:hover {
+  color: black;
+}
