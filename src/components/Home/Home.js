@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
+import useService from "../Hooks/useService";
 import ItService from "../ItService/ItService";
 
 const Home = () => {
-  const [services, setServices] = useState([]);
-
-  useEffect(() => {
-    fetch("service.json")
-      .then((res) => res.json())
-      .then((json) => setServices(json));
-  }, []);
+  const [services, setServices] = useService();
 
   return (
     <div className="container my-5">
