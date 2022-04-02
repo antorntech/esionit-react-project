@@ -1,3 +1,7 @@
+.header {
+  position: relative;
+}
+
 nav a {
   text-decoration: none;
   color: black;
@@ -29,4 +33,40 @@ button span {
   font-size: 18px;
   font-weight: 600;
   margin-left: 10px;
+}
+
+.login-container {
+  position: absolute;
+  display: none;
+  transition: 0.5s;
+  top: 0;
+  left: 425px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f05d5370;
+}
+
+.login-form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.login-form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.login-form input:focus {
+  outline: none;
+}
+
+.login-btn {
+  width: 150px;
+  padding: 5px 0px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
