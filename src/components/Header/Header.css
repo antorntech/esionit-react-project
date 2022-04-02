@@ -1,0 +1,32 @@
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  color: rgb(134, 134, 134);
+  padding: 8px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #f05d53;
+}
+
+button {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #f05d53;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #d4493f;
+}
+
+button span {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
